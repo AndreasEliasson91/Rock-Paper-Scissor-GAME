@@ -6,21 +6,37 @@ namespace Task09
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Rock, Paper or Scissor game against the computer. First to 3 wins!\n\n");
             int[] score = new int[2] {0,0};
             string playerMove, computerMove;
-            do
+            while (score[0] < 3 && score[1] < 3)
             {
                 playerMove = PlayerMove();
                 computerMove = ComputerMove();
-                score = GetPoint(score, playerMove, computerMove);
+                score = GetScore(score, playerMove, computerMove);
                 Console.WriteLine(score[0] + " - " + score[1] + "\n");
-            } while (score[0] <= 5 || score[1] <= 5);
+            }
+            if (score[0] > score[1]) { Console.WriteLine("PLAYER WIN!"); }
+            else { Console.WriteLine("COMPUTER WIN!"); }
+            Console.ReadKey(); 
         }
         static string PlayerMove()
         {
-            Console.WriteLine("Rock, Paper or Scissor?");
-            string move = Console.ReadLine();
-            move = move.ToUpper();
+            bool loop;
+            string move;
+            do
+            {
+                loop = false;
+                Console.WriteLine("Rock, Paper or Scissor?");
+                move = Console.ReadLine();
+                move = move.ToUpper();
+                if (move == "ROCK" || move == "PAPER" || move == "SCISSOR") { continue; }
+                else
+                {
+                    Console.WriteLine("Invalid entry! Try again.\n");
+                    loop = true;
+                }
+            } while (loop == true);
             Console.WriteLine("PLAYER: " + move);
             return move;
         }
@@ -35,7 +51,7 @@ namespace Task09
             Console.WriteLine("COMPUTER: " + move);
             return move;
         }
-        static int[] GetPoint(int[] currentScore, string player, string computer)
+        static int[] GetScore(int[] currentScore, string player, string computer)
         {  
             if (player == computer) { Console.WriteLine("It's a Tie!"); }
             else if (player == "ROCK" && computer == "PAPER")
