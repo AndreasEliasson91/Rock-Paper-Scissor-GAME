@@ -1,0 +1,16 @@
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.exe
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.deps.json
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.runtimeconfig.json
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.runtimeconfig.dev.json
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.dll
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\ref\Task09.dll
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\bin\Debug\net5.0\Task09.pdb
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.csprojAssemblyReference.cache
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.AssemblyInfo.cs
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.dll
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\ref\Task09.dll
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.pdb
+C:\Users\andre\Documents\ObjektProgram\Uppgift09\Task09\obj\Debug\net5.0\Task09.genruntimeconfig.cache
