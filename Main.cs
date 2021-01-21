@@ -44,12 +44,9 @@ namespace Task09
         {
             Random randNum = new Random();
             int num = randNum.Next(3);
-            string move = "";
-            if (num == 0) { move = "ROCK"; }
-            else if (num == 1) { move = "PAPER"; }
-            else { move = "SCISSOR"; }
-            Console.WriteLine("COMPUTER: " + move);
-            return move;
+            string[] move = new string[3] { "ROCK", "PAPER", "SCISSOR" };
+            Console.WriteLine("COMPUTER: " + move[num]);
+            return move[num];
         }
         static int[] GetScore(int[] currentScore, string player, string computer)
         {  
