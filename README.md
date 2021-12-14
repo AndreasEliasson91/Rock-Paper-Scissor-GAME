@@ -1,2 +1,4 @@
 # Task09
- Task09 Repository - YRGO
+ Task 09 - YRGO Technical Artist OOP-course
+ 
+ Basic Rock-Paper-Scissor Game
